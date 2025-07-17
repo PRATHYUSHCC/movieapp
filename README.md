@@ -1,12 +1,32 @@
-# React + Vite
+# 🎬 Movie Explorer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic full-stack movie discovery platform that lets users explore trending and popular movies through a modern, interactive UI.
 
-Currently, two official plugins are available:
+This project uses React.js with Tailwind CSS on the frontend, a Node.js backend server, PostgreSQL for data storage, and the TMDb API to fetch movie information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Developed a movie explorer using React.js and Tailwind CSS for fast, responsive UI.
+- Allows users to browse trending and popular movies from The Movie Database (TMDb).
+- Real-time debounced search functionality for fast and efficient movie lookups.
+- Backend server fetches trending movie data from the TMDb API and stores it into a PostgreSQL database.
+- Movies update dynamically, ensuring users always see the latest data.
+- Project is structured into separate frontend (`client`) and backend (`server`) folders.
+
+---
+
+## 🛠 Technologies Used
+
+- React.js
+- Tailwind CSS
+- Node.js
+- Express.js
+- PostgreSQL
+- TMDb API
+- Vite (for frontend tooling)
+
+---
+
+
