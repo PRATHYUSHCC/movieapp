@@ -53,9 +53,9 @@ async function saveTrendingMovies() {
       );
     }
 
-    console.log("✅ Trending movies saved to the database.");
+    console.log(" Trending movies saved to the database.");
   } catch (err) {
-    console.error("❌ Failed to fetch/store trending movies:", err.message);
+    console.error(" Failed to fetch/store trending movies:", err.message);
   } finally {
     await pool.end();
   }
