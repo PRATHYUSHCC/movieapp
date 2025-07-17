@@ -33,17 +33,17 @@ git clone https://github.com/PRATHYUSHCC/movieapp.git
 cd movieapp
 
 ## To setup frontend(React+Vite)
-cd client
-npm install
-to run vite 
-npm run dev
+-cd client
+-npm install
+-to run vite 
+-npm run dev
 
 http://localhost:5173 will host the front end
 
 ## To setup backend
 
-cd backend
-npm install
+-cd backend
+-npm install
 
 provide your backend details and apikey as provided in the .env example
 -run node server.js
