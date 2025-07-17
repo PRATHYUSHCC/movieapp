@@ -30,5 +30,5 @@ app.get('/api/trending', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`✅ Backend API running at http://localhost:${port}`);
+  console.log(` Backend API running at http://localhost:${port}`);
 });
